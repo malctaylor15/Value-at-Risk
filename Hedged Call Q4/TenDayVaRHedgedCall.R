@@ -7,8 +7,8 @@ library(RQuantLib)
 S <- 56.47   # Initial underlying price
 delta <- 1/250 # time increment 
 maturity0 <- 0.376 # initial maturity 
-mu <- .1689 
-sigma <- .2066 
+mu <- 0.1689 
+sigma <- 0.2066 
 
 n <- 10000 # Number of simulations 
 nday <- 10

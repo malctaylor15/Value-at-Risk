@@ -3,7 +3,7 @@
 This repository contains solutions to several Value at Risk assignments 
 from Boston University's Corporate Risk Management Course with Scott Robertson. 
 
-In the second part of the assignmnet, we were asked to compute the Value at Risk for a Hedged Call Option portfolio. 
+In the second part of the assignment, we were asked to compute the Value at Risk for a Hedged Call Option portfolio. 
 A hedged call option is a portfolio consisting of a call option and the Greek delta times the number of shares. 
 In the Black Scholes framework, stock returns are log normally distributed so we can simulate the future stock price 
 and calculate the new value of the portfolio, assuming the option price and stock price change but the original number of shares does not. 
